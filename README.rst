@@ -233,5 +233,4 @@ This command line would just test Python 2.7.
 Authors
 =======
 
-* Sean Fisk
-* Benjamin Schwarze
+* InfrasCloudy
