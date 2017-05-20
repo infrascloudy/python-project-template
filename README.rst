@@ -183,6 +183,34 @@ Jython_ and IronPython_ may also work, but have not been tested. If there is int
 .. _Jython: http://jython.org/
 .. _IronPython: http://ironpython.net/
 
+
+Distributing your Project
+=========================
+
+First, you need a PyPI user account. You can create an account using the form on the PyPI website.
+
+If you want to avoid entering your username and password when uploading, you can create a ~/.pypirc file with your username and password:
+
+    [pypi]
+    username = <username>
+    password = <password>
+
+*Be aware that this stores your password in plaintext.*
+
+To build the wheel:
+
+    python setup.py bdist_wheel
+    
+Upload your distributions
+
+Once you have an account you can upload your distributions to PyPI using twine. If this is your first time uploading a distribution for a new project, twine will handle registering the project.
+
+    twine upload dist/*
+
+Still Stuck?
+https://packaging.python.org/distributing/#uploading-your-project-to-pypi
+
+
 Licenses
 ========
 
