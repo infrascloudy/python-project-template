@@ -31,3 +31,6 @@ configparser==3.5.0
 
 # Coverage
 pytest-cov==2.4.0
+
+# Distribution
+twine==1.8.1
