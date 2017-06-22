@@ -192,7 +192,9 @@ First, you need a PyPI user account. You can create an account using the form on
 If you want to avoid entering your username and password when uploading, you can create a ~/.pypirc file with your username and password:
 
     [pypi]
+    
     username = <username>
+    
     password = <password>
 
 *Be aware that this stores your password in plaintext.*
