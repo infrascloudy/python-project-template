@@ -258,8 +258,8 @@ setup_dict = dict(
     ] + python_version_specific_requires,
     # Allow tests to be run with `python setup.py test'.
     tests_require=[
-        'pytest==2.5.1',
-        'mock==1.0.1',
+        'pytest==3.0.6',
+        'mock==2.0.0',
         'flake8==2.1.0',
     ],
     cmdclass={'test': TestAllCommand},
