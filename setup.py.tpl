@@ -3,7 +3,7 @@ from __future__ import print_function
 
 import os
 import sys
-import imp
+from importlib.machinery import SourceFileLoader
 import subprocess
 
 ## Python 2.6 subprocess.check_output compatibility. Thanks Greg Hewgill!
@@ -51,8 +51,7 @@ PYTEST_FLAGS = ['--doctest-modules']
 # instead, effectively side-stepping the dependency problem. Please make sure
 # metadata has no dependencies, otherwise they will need to be added to
 # the setup_requires keyword.
-metadata = imp.load_source(
-    'metadata', os.path.join(CODE_DIRECTORY, 'metadata.py'))
+metadata = SourceFileLoader('metadata', os.path.join(CODE_DIRECTORY, 'metadata.py')).load_module()
 
 
 ## Miscellaneous helper functions
