@@ -10,8 +10,6 @@ env:
 install:
   - pip install tox
 before_script:
-  - apt clean all
-  - ap update && apt upgrade -y
   - python internal/generate.py
 script:
   - tox
