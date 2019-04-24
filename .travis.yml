@@ -2,9 +2,8 @@ language: python
 dist: trusty
 python: 3.6
 env:
-  - TOXENV=py33
-  - TOXENV=pypy
-  # - TOXENV=docs
+  - TOXENV=py36
+# - TOXENV=docs
 install:
   - pip install tox
 before_script:
