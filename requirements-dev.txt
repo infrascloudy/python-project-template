@@ -8,6 +8,8 @@ mock==2.0.0
 tox==3.9.0
 six
 git+https://github.com/untitaker/python-atomicwrites
+attr
+pip-tools
 
 # Linting
 flake8==3.7.7
