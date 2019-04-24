@@ -5,7 +5,8 @@ env:
   - TOXENV=py36
 # - TOXENV=docs
 install:
-  - pip install tox
+  - pip install tox pip-tools
+  - pip compile requirements-dev.in
 before_script:
   - python internal/generate.py
 script:
