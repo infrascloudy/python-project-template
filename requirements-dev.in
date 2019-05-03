@@ -4,7 +4,7 @@
 # Testing
 pytest==4.4.1
 py==1.8.0
-mock==2.0.0
+mock==3.0.3
 tox==3.9.0
 six
 attr
