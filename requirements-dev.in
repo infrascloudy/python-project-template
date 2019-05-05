@@ -4,7 +4,7 @@
 # Testing
 pytest==4.4.1
 py==1.8.0
-mock==2.0.0
+mock==3.0.3
 tox==3.9.0
 six
 attr
@@ -18,7 +18,7 @@ pyflakes==2.1.1
 pycodestyle==2.5.0
 
 # Documentation
-Sphinx==1.5.2
+Sphinx==2.0.1
 sphinx_rtd_theme
 docutils==0.14
 Jinja2==2.10.1
@@ -33,7 +33,7 @@ enum34==1.1.6
 configparser==3.5.0
 
 # Coverage
-pytest-cov==2.4.0
+pytest-cov==2.7.1
 
 # Distribution
 twine==1.13.0
