@@ -3,8 +3,6 @@ cache: pip
 dist: trusty
 matrix:
     include:
-      - env: TOXENV=py34
-        python: 3.4
       - env: TOXENV=py35
         python: 3.5
       - env: TOXENV=py36
@@ -21,7 +19,5 @@ before_script:
   - python internal/generate.py
 script:
   - tox
-  - coverage run paver test_all
 after_success:
-  - pip install codecov
   - bash <(curl -s https://codecov.io/bash)
