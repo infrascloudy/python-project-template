@@ -23,7 +23,7 @@ sphinx_rtd_theme
 docutils==0.14
 Jinja2==2.10.1
 MarkupSafe==1.1.1
-Pygments==2.2.0
+Pygments==2.3.1
 watchdog==0.8.3
 
 # Miscellaneous
@@ -36,4 +36,4 @@ configparser==3.5.0
 pytest-cov==2.4.0
 
 # Distribution
-twine==1.8.1
+twine==1.13.0
