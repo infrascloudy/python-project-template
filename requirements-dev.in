@@ -33,7 +33,7 @@ enum34==1.1.6
 configparser==3.5.0
 
 # Coverage
-pytest-cov==2.4.0
+pytest-cov==2.7.1
 
 # Distribution
 twine==1.13.0
