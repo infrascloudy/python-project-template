@@ -18,7 +18,7 @@ pyflakes==2.1.1
 pycodestyle==2.5.0
 
 # Documentation
-Sphinx==1.5.2
+Sphinx==2.0.1
 sphinx_rtd_theme
 docutils==0.13.1
 Jinja2==2.10.1
