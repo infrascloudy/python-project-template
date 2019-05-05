@@ -21,3 +21,6 @@ before_script:
   - python internal/generate.py
 script:
   - tox
+after_success:
+  - pip install codecov
+  - bash <(curl -s https://codecov.io/bash)
