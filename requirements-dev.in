@@ -5,7 +5,7 @@
 pytest==4.4.2
 py==1.8.0
 mock==3.0.5
-tox==3.9.0
+tox==3.10.0
 six
 attr
 pip-tools
