@@ -7,6 +7,10 @@
 
 .. image:: https://codecov.io/gh/infrascloudy/python-project-template/branch/master/graph/badge.svg
   :target: https://codecov.io/gh/infrascloudy/python-project-template
+  
+.. image:: https://img.shields.io/lgtm/alerts/g/infrascloudy/python-project-template.svg
+  :target: https://lgtm.com/projects/g/infrascloudy/python-project-template/alerts/
+
 
 This project provides a best-practices template Python project which integrates several different tools. It saves you work by setting up a number of things, including documentation, code checking, and unit test runners.
 
