@@ -15,13 +15,13 @@ certifi==2019.3.9         # via requests
 chardet==3.0.4            # via requests
 click==7.0                # via pip-tools
 colorama==0.3.7
-configparser==3.7.4
+configparser==3.8.1
 coverage==4.5.3           # via pytest-cov
 docutils==0.15.2
 entrypoints==0.3          # via flake8
 enum34==1.1.6
 filelock==3.0.10          # via tox
-flake8==3.7.7
+flake8==3.7.8
 idna==2.8                 # via requests
 imagesize==1.1.0          # via sphinx
 importlib-metadata==0.17  # via pluggy, pytest, tox
