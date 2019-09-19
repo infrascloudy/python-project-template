@@ -36,4 +36,4 @@ configparser==4.0.2
 pytest-cov==2.7.1
 
 # Distribution
-twine==1.13.0
+twine==1.15.0
