@@ -25,7 +25,7 @@ filelock==3.0.10          # via tox
 flake8==3.7.9
 idna==2.8                 # via requests
 imagesize==1.1.0          # via sphinx
-importlib-metadata==0.17  # via pluggy, pytest, tox, twine
+importlib-metadata==0.17  # via pluggy
 jeepney==0.4.1            # via secretstorage
 jinja2==2.10.3
 keyring==19.2.0           # via twine
@@ -40,7 +40,7 @@ pep8==1.7.1
 pip-tools==4.2.0
 pkginfo==1.5.0.1          # via twine
 pluggy==0.12.0            # via pytest, tox
-py==1.8.0
+py==1.8.1
 pycodestyle==2.5.0
 pycparser==2.19           # via cffi
 pyflakes==2.1.1
