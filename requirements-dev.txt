@@ -40,7 +40,7 @@ pep8==1.7.1
 pip-tools==4.2.0
 pkginfo==1.5.0.1          # via twine
 pluggy==0.12.0            # via pytest, tox
-py==1.8.0
+py==1.8.1
 pycodestyle==2.5.0
 pycparser==2.19           # via cffi
 pyflakes==2.1.1
