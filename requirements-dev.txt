@@ -18,7 +18,7 @@ colorama==0.4.3
 configparser==4.0.2
 coverage==4.5.3           # via pytest-cov
 cryptography==2.8         # via secretstorage
-docutils==0.15.2
+docutils==0.16
 entrypoints==0.3          # via flake8, keyring
 enum34==1.1.6
 filelock==3.0.10          # via tox
