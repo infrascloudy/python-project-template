@@ -20,7 +20,7 @@ coverage==4.5.3           # via pytest-cov
 cryptography==2.8         # via secretstorage
 docutils==0.16
 entrypoints==0.3          # via flake8, keyring
-enum34==1.1.6
+enum34==1.1.9
 filelock==3.0.10          # via tox
 flake8==3.7.9
 idna==2.8                 # via requests
