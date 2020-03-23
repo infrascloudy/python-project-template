@@ -1,5 +1,5 @@
-Absa SFTP Uploader
-==================
+$project
+$project_underline
 
 Contents:
 

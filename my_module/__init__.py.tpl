@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
-"""It uploads files over ftp / sftp"""
+"""$description"""
 
-from absa_uploader import metadata
+from $package import metadata
 
 
 __version__ = metadata.version

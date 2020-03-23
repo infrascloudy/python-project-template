@@ -1,0 +1,21 @@
+language: python
+cache: pip
+dist: xenial§4
+matrix:
+    include:
+      - env: TOXENV=py36
+        python: 3.6
+      - env: TOXENV=py37
+        python: 3.7
+        dist: xenial
+        sudo: true
+
+install:
+  - pip install tox pip-tools
+  - pip-compile requirements-dev.in
+before_script:
+  - python internal/generate.py
+script:
+  - tox
+after_success:
+  - bash <(curl -s https://codecov.io/bash)
