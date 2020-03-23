@@ -7,7 +7,7 @@ from __future__ import print_function
 import argparse
 import sys
 
-from $package import metadata
+from absa_uploader import metadata
 
 
 def main(argv):

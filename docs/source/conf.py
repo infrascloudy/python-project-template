@@ -25,7 +25,7 @@ sys.path.insert(0, os.path.abspath('.'))
 sys.path.insert(0, os.path.abspath('../..'))
 
 # Import project metadata
-from $package import metadata
+from absa_uploader import metadata
 
 # -- General configuration ----------------------------------------------------
 
