@@ -20,7 +20,7 @@ coverage==4.5.3           # via pytest-cov
 cryptography==2.8         # via secretstorage
 docutils==0.16            # via -r requirements-dev.in, readme-renderer, sphinx
 entrypoints==0.3          # via flake8, keyring
-enum34==1.1.9             # via -r requirements-dev.in
+enum34==1.1.10            # via -r requirements-dev.in
 filelock==3.0.10          # via tox
 flake8==3.7.9             # via -r requirements-dev.in
 idna==2.8                 # via requests
