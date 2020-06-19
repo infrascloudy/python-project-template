@@ -27,7 +27,7 @@ idna==2.8                 # via requests
 imagesize==1.1.0          # via sphinx
 importlib-metadata==0.17  # via pluggy
 jeepney==0.4.1            # via secretstorage
-jinja2==2.10.3            # via -r requirements-dev.in, sphinx
+jinja2==2.11.2            # via -r requirements-dev.in, sphinx
 keyring==19.2.0           # via twine
 markupsafe==1.1.1         # via -r requirements-dev.in, jinja2
 mccabe==0.6.1             # via -r requirements-dev.in, flake8
