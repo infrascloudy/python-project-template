@@ -31,7 +31,7 @@ jinja2==2.11.2            # via -r requirements-dev.in, sphinx
 keyring==19.2.0           # via twine
 markupsafe==1.1.1         # via -r requirements-dev.in, jinja2
 mccabe==0.6.1             # via -r requirements-dev.in, flake8
-mock==3.0.5               # via -r requirements-dev.in
+mock==4.0.2               # via -r requirements-dev.in
 more-itertools==7.0.0     # via pytest
 packaging==19.0           # via pytest, sphinx, tox
 pathtools==0.1.2          # via watchdog
