@@ -9,7 +9,7 @@ argh==0.26.2              # via watchdog
 attr==0.3.1               # via -r requirements-dev.in
 attrs==19.1.0             # via pytest
 babel==2.6.0              # via sphinx
-bleach==3.1.1             # via readme-renderer
+bleach==3.1.4             # via readme-renderer
 certifi==2019.3.9         # via requests
 cffi==1.13.2              # via cryptography
 chardet==3.0.4            # via requests
