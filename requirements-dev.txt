@@ -39,7 +39,7 @@ pep8==1.7.1               # via -r requirements-dev.in
 pip-tools==5.2.1          # via -r requirements-dev.in
 pkginfo==1.5.0.1          # via twine
 pluggy==0.12.0            # via pytest, tox
-py==1.8.1                 # via -r requirements-dev.in, pytest, tox
+py==1.8.2                 # via -r requirements-dev.in, pytest, tox
 pycodestyle==2.5.0        # via -r requirements-dev.in, flake8
 pycparser==2.19           # via cffi
 pyflakes==2.1.1           # via -r requirements-dev.in, flake8
