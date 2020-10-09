@@ -14,7 +14,7 @@ cffi==1.13.2              # via cryptography
 chardet==3.0.4            # via requests
 click==7.0                # via pip-tools
 colorama==0.4.3           # via -r requirements-dev.in
-configparser==4.0.2       # via -r requirements-dev.in
+configparser==5.0.1       # via -r requirements-dev.in
 coverage==4.5.3           # via pytest-cov
 cryptography==2.8         # via secretstorage
 docutils==0.16            # via -r requirements-dev.in, readme-renderer, sphinx
