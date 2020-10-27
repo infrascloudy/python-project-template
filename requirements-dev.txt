@@ -16,7 +16,7 @@ click==7.0                # via pip-tools
 colorama==0.4.3           # via -r requirements-dev.in
 configparser==4.0.2       # via -r requirements-dev.in
 coverage==4.5.3           # via pytest-cov
-cryptography==2.8         # via secretstorage
+cryptography==3.2         # via secretstorage
 docutils==0.16            # via -r requirements-dev.in, readme-renderer, sphinx
 entrypoints==0.3          # via flake8, keyring
 enum34==1.1.10            # via -r requirements-dev.in
