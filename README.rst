@@ -18,6 +18,7 @@ This project provides a best-practices template Python project which integrates 
 
 As it is an all-in-one solution, the tools used are rather opinionated. They include:
 
+
 * Paver_ for running miscellaneous tasks
 * Setuptools_ for distribution (Setuptools and Distribute_ have merged_)
 * Sphinx_ for documentation
