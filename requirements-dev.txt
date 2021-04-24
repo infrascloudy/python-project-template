@@ -12,7 +12,7 @@ attrs==19.1.0
     # via pytest
 babel==2.6.0
     # via sphinx
-bleach==3.1.4
+bleach==3.3.0
     # via readme-renderer
 certifi==2019.3.9
     # via requests
@@ -30,7 +30,7 @@ configparser==5.0.1
     # via -r requirements-dev.in
 coverage==4.5.3
     # via pytest-cov
-cryptography==2.8
+cryptography==3.2
     # via secretstorage
 docutils==0.16
     # via
@@ -75,6 +75,7 @@ more-itertools==7.0.0
     # via pytest
 packaging==19.0
     # via
+    #   bleach
     #   pytest
     #   sphinx
     #   tox
@@ -90,7 +91,7 @@ pluggy==0.12.0
     # via
     #   pytest
     #   tox
-py==1.9.0
+py==1.10.0
     # via
     #   -r requirements-dev.in
     #   pytest
