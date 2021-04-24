@@ -2,7 +2,7 @@
 --requirement requirements.txt
 
 # Testing
-pytest==5.4.3
+pytest==6.2.3
 py==1.10.0
 mock==4.0.2
 tox==3.17.1
