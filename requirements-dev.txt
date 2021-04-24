@@ -30,7 +30,7 @@ configparser==5.0.1
     # via -r requirements-dev.in
 coverage==4.5.3
     # via pytest-cov
-cryptography==3.2
+cryptography==3.3.2
     # via secretstorage
 docutils==0.16
     # via
@@ -106,7 +106,7 @@ pyflakes==2.1.1
     # via
     #   -r requirements-dev.in
     #   flake8
-pygments==2.6.1
+pygments==2.7.4
     # via
     #   -r requirements-dev.in
     #   readme-renderer
