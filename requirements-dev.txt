@@ -55,7 +55,7 @@ importlib-metadata==0.17
     # via pluggy
 jeepney==0.4.1
     # via secretstorage
-jinja2==2.11.2
+jinja2==2.11.3
     # via
     #   -r requirements-dev.in
     #   sphinx
