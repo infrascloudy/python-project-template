@@ -55,9 +55,8 @@ importlib-metadata==4.0.1
     # via
     #   pluggy
     #   twine
-
 iniconfig==1.1.1
-
+    # via pytest
 jeepney==0.4.1
     # via secretstorage
 jinja2==2.11.3
@@ -173,7 +172,7 @@ toml==0.10.0
     #   pep517
     #   pytest
     #   tox
-tox==3.17.1
+tox==3.23.0
     # via -r requirements-dev.in
 tqdm==4.31.1
     # via twine
