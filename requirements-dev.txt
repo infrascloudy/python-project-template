@@ -55,9 +55,8 @@ importlib-metadata==4.0.1
     # via
     #   pluggy
     #   twine
-
 iniconfig==1.1.1
-
+    # via pytest
 jeepney==0.4.1
     # via secretstorage
 jinja2==2.11.3
@@ -120,7 +119,7 @@ pyparsing==2.4.0
     # via packaging
 pytest-cov==2.10.1
     # via -r requirements-dev.in
-pytest==6.2.3
+pytest==6.2.4
     # via
     #   -r requirements-dev.in
     #   pytest-cov
