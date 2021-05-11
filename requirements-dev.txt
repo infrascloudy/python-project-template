@@ -55,9 +55,8 @@ importlib-metadata==4.0.1
     # via
     #   pluggy
     #   twine
-
 iniconfig==1.1.1
-
+    # via pytest
 jeepney==0.4.1
     # via secretstorage
 jinja2==2.11.3
@@ -70,6 +69,7 @@ markupsafe==1.1.1
     # via
     #   -r requirements-dev.in
     #   jinja2
+    #   sphinx
 mccabe==0.6.1
     # via
     #   -r requirements-dev.in
@@ -152,7 +152,7 @@ snowballstemmer==1.2.1
     # via sphinx
 sphinx-rtd-theme==0.5.0
     # via -r requirements-dev.in
-sphinx==3.5.4
+sphinx==4.0.1
     # via
     #   -r requirements-dev.in
     #   sphinx-rtd-theme
