@@ -55,9 +55,8 @@ importlib-metadata==4.0.1
     # via
     #   pluggy
     #   twine
-
 iniconfig==1.1.1
-
+    # via pytest
 jeepney==0.4.1
     # via secretstorage
 jinja2==2.11.3
@@ -66,7 +65,7 @@ jinja2==2.11.3
     #   sphinx
 keyring==19.2.0
     # via twine
-markupsafe==1.1.1
+markupsafe==2.0.0
     # via
     #   -r requirements-dev.in
     #   jinja2
