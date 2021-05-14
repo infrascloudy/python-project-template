@@ -26,7 +26,7 @@ colorama==0.4.4
     # via
     #   -r requirements-dev.in
     #   twine
-configparser==5.0.1
+configparser==5.0.2
     # via -r requirements-dev.in
 coverage==5.5
     # via pytest-cov
