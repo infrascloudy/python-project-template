@@ -59,7 +59,7 @@ iniconfig==1.1.1
     # via pytest
 jeepney==0.4.1
     # via secretstorage
-jinja2==2.11.3
+jinja2==3.0.0
     # via
     #   -r requirements-dev.in
     #   sphinx
