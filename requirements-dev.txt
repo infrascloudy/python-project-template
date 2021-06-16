@@ -37,6 +37,7 @@ docutils==0.16
     #   -r requirements-dev.in
     #   readme-renderer
     #   sphinx
+    #   sphinx-rtd-theme
 entrypoints==0.3
     # via
     #   flake8
@@ -149,12 +150,12 @@ six==1.15.0
     #   tox
 snowballstemmer==1.2.1
     # via sphinx
-sphinx-rtd-theme==0.5.0
-    # via -r requirements-dev.in
 sphinx==3.5.4
     # via
     #   -r requirements-dev.in
     #   sphinx-rtd-theme
+sphinx_rtd_theme==0.5.2
+    # via -r requirements-dev.in
 sphinxcontrib-applehelp==1.0.1
     # via sphinx
 sphinxcontrib-devhelp==1.0.1
