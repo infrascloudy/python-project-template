@@ -139,7 +139,7 @@ rfc3986==1.4.0
     # via twine
 secretstorage==3.1.1
     # via keyring
-six==1.15.0
+six==1.16.0
     # via
     #   -r requirements-dev.in
     #   bleach
@@ -150,12 +150,12 @@ six==1.15.0
     #   tox
 snowballstemmer==1.2.1
     # via sphinx
+sphinx-rtd-theme==0.5.2
+    # via -r requirements-dev.in
 sphinx==3.5.4
     # via
     #   -r requirements-dev.in
     #   sphinx-rtd-theme
-sphinx_rtd_theme==0.5.2
-    # via -r requirements-dev.in
 sphinxcontrib-applehelp==1.0.1
     # via sphinx
 sphinxcontrib-devhelp==1.0.1
