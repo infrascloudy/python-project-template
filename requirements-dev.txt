@@ -150,7 +150,7 @@ six==1.15.0
     #   tox
 snowballstemmer==1.2.1
     # via sphinx
-sphinx==3.5.4
+sphinx==4.1.0
     # via
     #   -r requirements-dev.in
     #   sphinx-rtd-theme
