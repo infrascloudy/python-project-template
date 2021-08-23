@@ -174,7 +174,7 @@ toml==0.10.0
     #   pytest
     #   pytest-cov
     #   tox
-tox==3.23.1
+tox==3.24.3
     # via -r requirements-dev.in
 tqdm==4.31.1
     # via twine
