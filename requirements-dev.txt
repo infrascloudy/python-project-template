@@ -118,7 +118,7 @@ pygments==2.8.1
     #   sphinx
 pyparsing==2.4.0
     # via packaging
-pytest==6.2.3
+pytest==6.2.5
     # via
     #   -r requirements-dev.in
     #   pytest-cov
