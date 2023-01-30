@@ -3,7 +3,7 @@
 
 # Testing
 pytest==6.2.3
-py==1.10.0
+py==1.11.0
 mock==4.0.3
 tox==3.23.1
 six
