@@ -4,7 +4,9 @@ from __future__ import print_function
 import os
 import sys
 from importlib.machinery import SourceFileLoader
-import subprocess
+
+from pip._internal.req import parse_requirements
+
 
 ## Python 2.6 subprocess.check_output compatibility. Thanks Greg Hewgill!
 if 'check_output' not in dir(subprocess):
@@ -220,6 +222,9 @@ python_version_specific_requires = []
 if sys.version_info < (2, 7) or (3, 0) <= sys.version_info < (3, 3):
     python_version_specific_requires.append('argparse')
 
+with open('requirements.txt') as f:
+    required = f.read().splitlines()
+
 
 # See here for more options:
 # <http://pythonhosted.org/setuptools/setuptools.html>
@@ -253,7 +258,8 @@ setup_dict = dict(
     packages=find_packages(exclude=(TESTS_DIRECTORY,)),
     install_requires=[
         # your module dependencies
-    ] + python_version_specific_requires,
+    ]
+    + required + python_version_specific_requires,
     # Allow tests to be run with `python setup.py test'.
     tests_require=[
         'pytest==3.0.6',
