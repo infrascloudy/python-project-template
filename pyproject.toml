@@ -1,0 +1,23 @@
+[build-system]
+requires = ["hatchling>=1.25"]
+build-backend = "hatchling.build"
+
+[project]
+name = "project_name"
+version = "0.0.0"
+description = "A modern Python project template"
+readme = "README.md"
+requires-python = ">=3.10"
+license = { file = "LICENSE" }
+authors = [
+  { name = "Your Name", email = "you@example.com" }
+]
+classifiers = [
+  "Programming Language :: Python :: 3",
+  "Programming Language :: Python :: 3.12",
+  "Typing :: Typed",
+]
+dependencies = []
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/project_name"]
